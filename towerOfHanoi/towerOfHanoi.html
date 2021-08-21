@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tower of Hanoi</title>
+    <script src=towerOfHanoi.js></script>
+</head>
+
+<body>
+
+    <canvas id="theCanvas" width="600" height="400" style="border: 1px solid black;"> </canvas>
+    
+    <div id="buttons">
+        <button id="start" onclick="startFunction('move()')"> Start </button>
+        <button id="stop" onclick="stopFunction()"> Stop </button>
+        <button id="restart" onclick="restart()"> Restart </button>
+
+        <label for="disks">Number of disks:</label>
+        <select name="disks" id="disks" onchange="updateNrOfDisks()">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+
+        <p id="iteration">Iteration: 0</p>
+    </div>
+
+</body>
+
+</html>
