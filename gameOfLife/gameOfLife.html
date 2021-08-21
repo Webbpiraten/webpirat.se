@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game of Life</title>
+    <script src=gameOfLife.js></script>
+
+    <style type="text/css">
+        body {background-color: powderblue;}
+
+        #container {height: 100%; width:100%; font-size: 0;}
+
+        #left, #middle, #right {display: inline-block; *display: inline; vertical-align: top; font-size: 12px;}
+
+        #left {width: 25%; background-color: tomato;}
+        #middle {width: 50%;}
+        #right {width: 25%;}
+
+
+        footer {background-color: lavender; text-align: center;}
+        header {background-color: lavender; text-align: center;}
+
+    </style>
+
+</head>
+
+<header> Conway's Game of Life </header>
+
+<body>
+
+    <div id="container">
+        <div id="left">
+            <div id="buttons">
+                <button id="start" onclick="startFunction('generateNextGeneration()')"> Start </button>
+                <button id="stop" onclick="stopFunction()"> Stop </button>
+                <button id="restart" onclick="restart()"> Restart </button>
+            </div>
+    
+            <div id="select">
+            <label for="speed">Choose a speed:</label>
+                <select name="speed" id="speed">
+                    <option value="1000">1000 milisecond</option>
+                    <option value="500">500 milisecond</option>
+                    <option value="100" selected="selected">100 milisecond</option>
+                    <option value="10">10 milisecond</option>
+                </select>
+            </div>
+
+            <div id="selectMode">
+                <label for="mode">Choose a mode:</label>
+                    <select name="mode" id="mode">
+                        <option value="0" selected="selected">Random</option>
+                        <option value="1">Draw</option>
+                    </select>
+                </div>
+    
+            <div id="status">
+                <p id="iteration">Iteration: 0</p>
+            </div> 
+
+        </div>
+
+        <div id="middle">
+             <canvas id="theCanvas" width="1000" height="1000" style="border: 1px solid black;"> </canvas>
+        </div>
+
+        <div id="right">
+            <p>Test</p>
+        </div>
+
+    </div>
+
+    <div>
+
+
+        
+        
+
+
+    </div>
+
+</body>
+
+<footer>             
+    Footer
+</footer>
+
+</html>
