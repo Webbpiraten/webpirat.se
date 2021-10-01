@@ -1,117 +1,133 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Webpirat.se</title>
+        <!-- <base href="" target="_blank"> -->
+        <!-- <script src=gameOfLife.js></script> -->
 
-<head>
-    <meta charset="utf-8">
-    <title>Webpirat.se</title>
-    <!-- <base href="" target="_blank"> -->
-    <!-- <script src=gameOfLife.js></script> -->
+        <style type="text/css">
+            body {
+                color: #444;
+                margin: 40px auto;
+                max-width: 1300px;
+                line-height: 1.6;
+                font-size: 18px;
+            }
 
-    <style type="text/css">
-        body {
-            background-color: lavender;
-            margin: 40px auto;
-            max-width: 1300px;
-            line-height: 1.6;
-            font-size: 18px;
-        }
+            header {
+                text-align: center; 
+            }
 
-        #container {
-            position: relative;
-            height: 100%; 
-            width:100%; 
-            font-size: 0; 
-            background-color: blueviolet;
-        }
+            #container {
+                position: relative;
+                height: 100%; 
+                width:100%; 
+                font-size: 0; 
+            }
 
-        #left, #middle, #right {
-            display: inline-block; 
-            vertical-align: top; 
-            font-size: 12px;
-        }
+            #left, #middle, #right {
+                display: inline-block; 
+                vertical-align: top; 
+                font-size: 12px;
+            }
 
-        #left, #right {width: 25%; background-color: burlywood;}
-        #middle {width: 50%; background-color: burlywood;}
-        /*#right {width: 25%; height: auto; background-color: burlywood;}*/
+            #left {width: 25%; padding-left: 10px;}
+            #middle {width: 50%;}
+            #right {width: 25%;}
 
-        header {
-            background-color: lavender; 
-            text-align: center; 
-        }
-        footer {
-            position: fixed;
-            bottom: 0;
-            right: 50%;
-            background-color: lavender; 
-            text-align: center;
-        }
+            footer {
+                position: fixed;
+                bottom: 0;
+                right: 50%;
+                text-align: center;
+            }
+            
+            nav { border-bottom: 1px solid black; border-top: 1px solid black;}
+
+            dt {font-weight: bold;}
+
+            #hr-content {
+                width:50%; 
+                text-align:left;
+                margin-left:0
+            }
+
+            /*ul { list-style-type: none; padding-left: 0; }*/
+        </style>
+    </head>
+
+    <body>
+        <header> 
+
+            <!-- <a href="webpirat.html">Home</a> -->
         
-        nav { border-bottom: 1px solid black; border-top: 1px solid black;}
+            <h1>Det här är <em>Webpirat.se</em> </h1>
+            <aside>Välkommen till min hemsida!</aside>
+            <hr>
 
-        ul { list-style-type: none; padding-left: 0; }
+        <!--
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./chaosGame.html"> <span>Chaos game</span> </a>
+                    </li>
+                    <li>
+                        <a href="./towerOfHanoi.html"> <span>Tower of Hanoi</span> </a>
+                    </li>
+                    <li>
+                        <a href="./gameOfLife.html"> <span>Conway's Game Of Life</span> </a>
+                    </li>
+                </ul>
+            </nav>
+        -->
+        </header>
 
-    </style>
+        <div id="container">
+            <div id="left">
+                <dl> 
+                    <dt>Kontakt</dt>
+                    <dd> <a href="https://se.linkedin.com/in/johanssonsimon">LinkedIn</a> </dd>
+                    <dd> <a href="https://github.com/Webbpiraten">Github</a> </dd>
+                </dl>
 
-</head>
+                <hr id="hr-content">
 
-<body>
+                <dl>
+                    <dt>Projekt</dt>
+                        <dd>Conway's game of life</dd>
+                        <dd><a href="./chaosGame/chaosGame.html"> <span>Chaos game</span> </a></dd>
+                        <dd>Tower of hanoi</dd>
+                </dl>
+            </div>
 
-    <header> 
+            <div id="middle">
+                <h1>En början</h1>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt.</p>
+                <h2>Av sjö groda, del.</h2>
+                <hr>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <p>Löksås ipsum brunsås av ännu händer sorgliga regn ska varit det sax sjö brunsås ta miljoner, upprätthållande träutensilierna del redan inom göras inom regn rännil söka hwila sitt sorgliga söka. Icke upprätthållande björnbär del är olika sig samtidigt för, upprätthållande hav där i om lax ska när från, erfarenheter flera plats rot bäckasiner rot när. Samtidigt kom händer olika det kunde på äng oss åker, sin jäst nu dag fram se tidigare precis, ännu åker som samma vad i samma sitt. Trevnadens rot samma mjuka både vidsträckt hav upprätthållande strand verkligen, dimma bra helt ordningens samma rot sjö och, söka genom bra fram hwila stora sitt rot. Vemod och ordningens hans ordningens färdväg nya hans och stora, vad vi åker dimmhöljd kom ännu kanske jäst lax, samma ordningens nya rot faktor så sjö samtidigt. Tid se oss flera lax inom hav sax från flera, sig sitt genom verkligen blivit när sitt häst.                     Där ska ta träutensilierna precis enligt strand dimma äng där kan, nu upprätthållande rännil mot vad kanske där olika sig, dunge samtidigt åker icke vi att bra så sin. Faktor groda av regn mot icke vid ingalunda björnbär rännil, rot av vemod gamla gör träutensilierna trevnadens nu om, vi åker händer för söka brunsås samtidigt som. Där redan tidigare färdväg icke helt vidsträckt sista, trevnadens genom stora ska dimma i att, nya åker lax sitt som annat. Häst ta händer både faktor inom verkligen häst, gör i enligt tiden och sin hwila, stora dimma där sitt strand omfångsrik.</p>
+                <hr>
+                <h1>Ett slut</h1>
+                <hr>
+                <h3>Webpirat.se</h3>
+            </div>
 
-        <!-- <a href="webpirat.html">Home</a> -->
-    
-        <h1>This is <em>a</em> website</h1>
 
-        <aside>Welcome to my website!</aside>
-    <!--
-        <nav>
-    
-            <ul>
-                <li>
-                    <a href="./chaosGame.html">
-                        <span>Chaos game</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="./towerOfHanoi.html">
-                        <span>Tower of Hanoi</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="./gameOfLife.html">
-                        <span>Conway's Game Of Life</span>
-                    </a>
-                </li>
-            </ul>
-    
-        </nav>
-    -->
-    </header>
-
-    <div id="container">
-
-        <p>Container!</p>
-
-        <div id="left">
-            <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+            <div id="right">
+            </div>
         </div>
 
-        <div id="middle">
-            <h1>Where to begin</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-            <h2>Lorem Ipsum</h2>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-        </div>
-
-        <div id="right">
-        </div>
-
-    </div>
-
-    <footer>             
-        <p>webpirat.se</p>
-    </footer>
-
-</body>
-
+        <!--
+        <footer>             
+            <p>webpirat.se</p>
+        </footer>
+        -->
+    </body>
 </html>
